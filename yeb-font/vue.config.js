@@ -23,7 +23,7 @@ proxyObj['/ws'] = {
 
 module.exports = {
     devServer: {
-        host: '10.62.48.96',
+        host: 'localhost',
         port: 9000,
         proxy: proxyObj,
     }
