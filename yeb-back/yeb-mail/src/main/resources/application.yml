@@ -1,0 +1,33 @@
+server:
+  port: 9091
+
+spring:
+  redis:
+    #    host: 192.168.92.128
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 0
+    timeout: 10000ms
+    lettuce:
+      pool:
+        max-active: 1024
+        max-wait: 10000ms
+        max-idle: 200
+        min-idle: 5
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    default-encoding: utf-8
+    password: oghxssklkzgmebce
+    username: 2361367057@qq.com
+    port: 465
+#  rabbitmq:
+#    username: guest
+#    password: guest
+#    host: 127.0.0.1
+#    port: 5672
+#    listener:
+#      simple:
+##        开启手动确认
+#        acknowledge-mode: manual
