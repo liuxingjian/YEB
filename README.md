@@ -10,7 +10,6 @@ B站 在线智能办公【云E办】项目完整版，基于SpringBoot+Vue开发
 #### 安装教程
 
 1.  npm run serve
-2.  错误的在package.jspon更新"sass-loader": "^8.0.2"版本
-3.  搭建后端
-4.  账号admin，密码123
+2.  搭建后端
+3.  账号admin，密码123
 
